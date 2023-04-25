@@ -13,7 +13,7 @@ fir 功能说明：
 	
 仿真结果：
 
-
+![](https://github.com/fivexxxxx/fpga_fir/blob/master/doc/dac.png)
 
 仿真步骤：
 
