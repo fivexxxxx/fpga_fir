@@ -1,0 +1,3 @@
+﻿  sin.c
+E:\githubPrj\fpga_prj\正弦波表128_8\正弦波表128_8\sin.c(37,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正弦波表128_8.vcxproj -> E:\githubPrj\fpga_prj\正弦波表128_8\Debug\正弦波表128_8.exe

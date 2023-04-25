@@ -1,0 +1,54 @@
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do compile.do
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:23:55 on Apr 11,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 09:23:56 on Apr 11,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:23:56 on Apr 11,2023
+# vlog -reportprogress 300 -work work ../src/dac.v 
+# -- Compiling module dac
+# 
+# Top level modules:
+# 	dac
+# End time: 09:23:56 on Apr 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:23:56 on Apr 11,2023
+# vlog -reportprogress 300 -work work tb_dac.v 
+# -- Compiling module tb_dac
+# 
+# Top level modules:
+# 	tb_dac
+# End time: 09:23:56 on Apr 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.glbl work.tb_dac 
+# Start time: 09:23:56 on Apr 11,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.glbl(fast)
+# Loading work.tb_dac(fast)
+# Loading work.dac(fast)
+run -all
+# Causality operation skipped due to absence of debug database file
+# End time: 09:43:10 on Apr 11,2023, Elapsed time: 0:19:14
+# Errors: 0, Warnings: 0

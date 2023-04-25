@@ -1,0 +1,90 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/githubPrj/fpga_prj/dac/sim
+T_opt
+!s110 1681176239
+V2dV]IQBnI]0K8mJ<0=Lh`3
+04 4 4 work glbl fast 0
+04 6 4 work tb_dac fast 0
+=1-1008b1f6cc79-6434b6ae-10d-1b6c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vdac
+Z2 !s110 1681176236
+!i10b 1
+!s100 BLiU4[TdnLXM8__X1Y5>H1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ib;Vn]bah87YjFKYFJHlOC2
+R0
+w1681175882
+8../src/dac.v
+F../src/dac.v
+!i122 1
+L0 6 299
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1681176236.000000
+!s107 ../src/dac.v|
+!s90 -reportprogress|300|-work|work|../src/dac.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+R1
+vglbl
+R2
+!i10b 1
+!s100 DCW3=ePZ4oEojGg2KL;HS0
+R3
+IUnoQ6^CBWl`mlgKN0?KI32
+R0
+w1558713910
+8glbl.v
+Fglbl.v
+!i122 0
+L0 6 65
+R4
+R5
+r1
+!s85 0
+31
+!s108 1681176235.000000
+!s107 glbl.v|
+!s90 -reportprogress|300|-work|work|glbl.v|
+!i113 0
+R7
+R1
+vtb_dac
+R2
+!i10b 1
+!s100 Y;^9l[X3R1PJQ4YPVz6kh1
+R3
+Im3kYYE0PB:hdZI6<^fO:d1
+R0
+w1681175528
+8tb_dac.v
+Ftb_dac.v
+!i122 2
+L0 2 38
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 tb_dac.v|
+!s90 -reportprogress|300|-work|work|tb_dac.v|
+!i113 0
+R7
+R1
